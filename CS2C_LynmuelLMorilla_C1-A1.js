@@ -13,14 +13,15 @@ let djob1 = "Motor Tuner";
 let fullName1 = fName1 +" "+ mName1+ " "+ lName1;
 let upFullName1 = fullName1.toUpperCase();
 
-
+//splitting sentences
 let fsentence1 = upFullName1 + " was born in " + bDate1 + " at " + bPlace1.toUpperCase() + "and is currently living there. ";
 let sSentence1 = fullName1 + " is taking up " + courseYr1 + " and dreams to be a " + djob1 + " after graduation. ";
 
+//printing all sentences
 console.log(fsentence1+sSentence1);
 console.log(" ");
 
-// Persona 2
+//1stclassmate's information
 let fName2 = "Mark Jasson";
 let mName2 = "Egos";
 let lName2 = "Dapon";
@@ -33,13 +34,15 @@ let djob2 = "Game Developer";
 let fullName2 = fName2 +" "+ mName2+ " "+ lName2;
 let upFullName2 = fullName2.toUpperCase();
 
+//splitting sentences
 let fsentence2 = "His classmate " + upFullName2 + ", was born in " + bDate2 + " at " + bPlace2.toUpperCase() + "and has been living there ever since. ";
 let sSentence2 = fullName2 + " is taking up " + courseYr2 + " and wants to become a " + djob2 + " after graduation. ";
 
+//printing 1stclassmate's information
 console.log(fsentence2 + sSentence2);
 console.log(" ");
 
-// Persona 3
+// 2ndclassmate information
 let fName3 = "Lynmuel";
 let mName3 = "Lucero";
 let lName3 = "Morilla";
@@ -52,8 +55,10 @@ let djob3 = "Game Developer";
 let fullName3 = fName3 +" "+ mName3+ " "+ lName3;
 let upFullName3 = fullName3.toUpperCase();
 
+//splitting sentences
 let fsentence3 = "Their other classmate " + upFullName3 + ", was born in " + bDate3 + " at " + bPlace3.toUpperCase() + " and is now living in " + addr3.toUpperCase() + ". ";
 let sSentence3 = fullName3 + " is taking up " + courseYr3 + " and also wants to become a " + djob3 + " after graduation.";
 
+//printing 2ndclassmate's information
 console.log(fsentence3 + sSentence3);
 console.log(" ");
